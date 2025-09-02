@@ -3,22 +3,22 @@
     "us_sandbox":{
         "username" : "",
         "password" : "",
-        "oauth_token" : "",
+        "oauth_token" : "{{create via zuora postman collection}}",
         "rsa_signature": "/v1/rsa-signatures",
-        "zuora_base_url": "https://rest.apisandbox.zuora.com",
-        "payment_page_url": "https://apisandbox.zuora.com/apps/PublicHostedPageLite.do",
-        "pageId": "",
+        "zuora_base_url": "https://rest.test.zuora.com",
+        "payment_page_url": "https://test.zuora.com/apps/PublicHostedPageLite.do",
+        "pageId": "8a8aa00098e9483b0199081f91b95aa5",
         "accountId":"",
         "publicKey": ""
     },
     "eu_sandbox":{
         "username" : "",
         "password" : "",
-        "oauth_token" : "",
+        "oauth_token" : "{{create via zuora postman collection}}",
         "rsa_signature": "/v1/rsa-signatures",
         "zuora_base_url": "https://sandbox.eu.zuora.com",
         "payment_page_url": "https://sandbox.eu.zuora.com/apps/PublicHostedPageLite.do",
-        "pageId": "",
+        "pageId": "8a8aa00098e9483b0199081f91b95aa5",
         "accountId":"",
         "publicKey": ""
     },
@@ -26,11 +26,11 @@
     "na_sandbox":{
         "username" : "",
         "password" : "",
-        "oauth_token" : "",
+        "oauth_token" : "{{create via zuora postman collection}}",
         "rsa_signature": "/v1/rsa-signatures",
         "zuora_base_url": "https://sandbox.na.zuora.com",
         "payment_page_url": "https://sandbox.na.zuora.com/apps/HostedPageLite.do",
-        "pageId": "",
+        "pageId": "8a8aa00098e9483b0199081f91b95aa5",
         "accountId":"",
         "publicKey": ""
     }

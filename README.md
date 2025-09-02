@@ -75,3 +75,5 @@ npm start
 	
 ### Step 6: In browser access the project's URL, for example: http://localhost:3000
 
+see [payment-page-tutorial](https://developer.zuora.com/docs/payment-page/payment-page-tutorial/) for more details.
+
