@@ -109,6 +109,7 @@ function loadPaymentPages(data, prepopulateFields, req) {
     'AmericanExpress,JCB,Visa,MasterCard,Discover,Dankort';
   params['url'] = data.url;
   params['locale'] = req.locale;
+  params['enableThreeDSecure'] = true;
   let gtOptions = req.gatewayOptions.split(";");
   gtOptions.forEach((gtOption) => {
     let ref = gtOption.split(":");
